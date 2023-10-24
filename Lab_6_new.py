@@ -1,4 +1,4 @@
-def encode_password(password):
+def encode_password(password):   # <-- encode funct by Jenian Exum
     encoded_password = ""
     for digit in password:
         new_digit = str((int(digit) + 3) % 10)
